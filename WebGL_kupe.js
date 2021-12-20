@@ -1,6 +1,6 @@
 "use strict"
 
-function initStats() {
+/*function initStats() {
 	let stats = new Stats();
 	stats.setMode(0);
 	stats.domElement.style.position = "absolute";
@@ -8,11 +8,11 @@ function initStats() {
 	stats.domElement.style.top = "0px";
 	document.body.append(stats.domElement);
 	return stats;
-}
+}*/
 
 function main() {
 	
-	let stats = initStats();
+	//let stats = initStats();
 	
 	const canvas = document.querySelector('#webgl-output');
 	let renderer = new THREE.WebGLRenderer({canvas});
