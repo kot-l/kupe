@@ -80,7 +80,7 @@ function main() {
 	//texture.offset.set(1, 1);
 	//texture.anisotropy = 300;*/
 
-	//dMaterial = new THREE.MeshLambertMaterial({color: 0xDEDE94});
+	dMaterial = new THREE.MeshLambertMaterial({color: 0xDEDE94});
 
 	let xc = -500;
 	let yc = -1101;
