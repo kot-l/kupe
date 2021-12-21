@@ -58,8 +58,7 @@ function main() {
 	let loader = new THREE.TextureLoader();
 	loader.load(
 		//путь или URL к файлу
-		'./textures/wood_3025.png',
-		//'https://junior3d.ru/texture/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BE/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BE/%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE_1.jpg',
+		'./textures/wood_3025.jpg',
 		//метод, который будет вызван после завершения загрузки, аргументом будет загруженная текстура
 		function (texture) {
 			dMaterial = new THREE.MeshPhongMaterial({map: texture})
@@ -74,9 +73,9 @@ function main() {
 	);
 	
 	//dTexture.wrapS = THREE.RepeatWrapping;
-    //dTexture.wrapT = THREE.RepeatWrapping;
-    //texture.magFilter = THREE.NearestFilter;
-    //dTexture.repeat.set(3, 3);
+    	//dTexture.wrapT = THREE.RepeatWrapping;
+    	//texture.magFilter = THREE.NearestFilter;
+    	//dTexture.repeat.set(3, 3);
 	//texture.offset.set(1, 1);
 	//texture.anisotropy = 300;*/
 
