@@ -72,12 +72,12 @@ function main() {
 		}
 	);
 	
-	//dTexture.wrapS = THREE.RepeatWrapping;
-    	//dTexture.wrapT = THREE.RepeatWrapping;
-    	//texture.magFilter = THREE.NearestFilter;
-    	//dTexture.repeat.set(3, 3);
-	//texture.offset.set(1, 1);
-	//texture.anisotropy = 300;*/
+	dTexture.wrapS = THREE.RepeatWrapping;
+  dTexture.wrapT = THREE.RepeatWrapping;
+  texture.magFilter = THREE.NearestFilter;
+  dTexture.repeat.set(3, 3);
+	texture.offset.set(1, 1);
+	texture.anisotropy = 300;
 
 	//dMaterial = new THREE.MeshLambertMaterial({color: 0xDEDE94});
 
